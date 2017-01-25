@@ -1,0 +1,23 @@
+/*
+Button
+
+Your standard button suitable for clicking.
+
+.shiny   - Do not press this big, shiny, red button.
+
+Markup: button.twig
+
+Style guide: components.button
+*/
+
+.button {
+  background: black;
+  color: white;
+  border: 0;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.button.shiny {
+  background: #f70505;
+}
